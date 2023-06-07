@@ -1,0 +1,112 @@
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 5.625rem 0 3.4375rem 0; }
+    .testimonials__headline {
+      margin-bottom: 5rem; }
+      @media screen and (min-width: 768px) {
+        .testimonials__headline {
+          margin-bottom: 3.75rem; } }
+    .testimonials__slider .slick-slide {
+      cursor: pointer; }
+      .testimonials__slider .slick-slide:focus {
+        outline: none; }
+      .testimonials__slider .slick-slide.slick-current .testimonials__item-inner {
+        background-color: #ffffff;
+        /* autoprefixer: ignore next */
+        -webkit-box-shadow: 0px 0px 2.667rem 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 0px 2.667rem 3px rgba(0, 0, 0, 0.15); }
+        @media screen and (min-width: 768px) {
+          .testimonials__slider .slick-slide.slick-current .testimonials__item-inner {
+          /* autoprefixer: ignore next */
+            -webkit-box-shadow: 0px 0px 2rem 3px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 2rem 3px rgba(0, 0, 0, 0.15); } }
+    .testimonials__slider .slick-dots {
+      /* autoprefixer: ignore next */
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      /* autoprefixer: ignore next */
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      /* autoprefixer: ignore next */
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 2.5rem; }
+      @media screen and (min-width: 768px) {
+        .testimonials__slider .slick-dots {
+          margin-top: 1.875rem; } }
+      .testimonials__slider .slick-dots li {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #cfcfcf;
+        cursor: pointer;
+        /* autoprefixer: ignore next */
+        -webkit-transition: all .25s;
+        -o-transition: all .25s;
+        transition: all .25s; }
+        .testimonials__slider .slick-dots li + li {
+          margin-left: .833rem; }
+          @media screen and (min-width: 768px) {
+            .testimonials__slider .slick-dots li + li {
+              margin-left: .625rem; } }
+        .testimonials__slider .slick-dots li.slick-active {
+          background-color: #07a8e2; }
+    .testimonials__item {
+      text-align: center;
+      padding: 2.5rem 0; }
+      @media screen and (min-width: 768px) {
+        .testimonials__item {
+          padding: 0; } }
+      .testimonials__item-inner {
+        padding: 0;
+        border-radius: 6px;
+        /* autoprefixer: ignore next */
+        -webkit-transition: all .25s;
+        -o-transition: all .25s;
+        transition: all .25s; }
+        @media screen and (min-width: 768px) {
+          .testimonials__item-inner {
+            padding: 1.25rem 1.25rem; } }
+      .testimonials__item-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 8.333rem;
+        width: 8.333rem;
+        border-radius: 50%;
+        margin: 0 auto 1.667rem auto; }
+        @media screen and (min-width: 768px) {
+          .testimonials__item-img {
+            height: 6.25rem;
+            width: 6.25rem;
+            margin-bottom: 1.25rem; } }
+      .testimonials__item-intro {
+        margin-bottom: 1.333rem; }
+        @media screen and (min-width: 768px) {
+          .testimonials__item-intro {
+            margin-bottom: 1rem; } }
+      .testimonials__item-stars {
+        /* autoprefixer: ignore next */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /* autoprefixer: ignore next */
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        /* autoprefixer: ignore next */
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 1.667rem; }
+        @media screen and (min-width: 768px) {
+          .testimonials__item-stars {
+            margin-top: 1.25rem; } }
+        .testimonials__item-stars i {
+          color: #0168e5; }
+          .testimonials__item-stars i + i {
+            margin-left: 3px; }
+  
