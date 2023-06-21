@@ -10,9 +10,9 @@ images:
                     link: 'https://gofund.me/a613f234'
                 },
                 {
-                    image: '../images/carousel/Detectives_Web_Tile.png',
-                    alt: 'Meeting notice for the history detectives sub-group',
-                    link: 'https://www.orangevalehistory.org/events/'
+                    image: '../images/carousel/Gift_Shop_Tile.png',
+                    alt: 'Purchase great products in the gift shop',
+                    link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
                     image: '../images/carousel/GRAND OPENING ohm.png',
