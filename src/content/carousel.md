@@ -25,9 +25,9 @@ images:
                     link: 'https://www.orangevalehistory.org/events/'
                 },
                 {
-                    image: '../images/carousel/Amazon_wishlist_tile.png',
-                    alt: 'Amazon Wishlist for Orangevale Museum',
-                    link: 'https://a.co/6epK0Hl'
+                    image: '../images/carousel/Mobile_History_Encounter_Tile.png',
+                    alt: 'Interactive history experience',
+                    link: 'https://www.orangevalehistorymuseum.org/'
                 }
             ]
     }
