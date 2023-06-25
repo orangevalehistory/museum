@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
-import logo from '../images/ovhistory.webp';
+import logo from '../images/ov-history-museum-01sm.jpg';
 import { Navbar } from './navbar/navbar';
 import { Donate } from './navbar/donate';
 import { Social } from './navbar/social';
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => {
                 <div id="left" className="px-0 w-1/4">
                     <img
                         alt="Orangevale History Project Museum logo"
-                        className="inline-block pl-4"
+                        className="inline-block pl-4 max-h-32"
                         src={logo}
                     />
                     <Link
