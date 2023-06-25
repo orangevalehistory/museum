@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => {
                     />
                     <Link
                         to="/"
-                        className="text-xl font-bold no-underline inline-block pl-4"
+                        className="hidden text-xl font-bold no-underline md:inline-block pl-4"
                     >
                         {siteTitle}
                     </Link>
@@ -45,6 +45,14 @@ const Header = ({ siteTitle }) => {
                         <Donate />
                     </div>
                 </div>
+            </div>
+            <div className="text-center">
+                <Link
+                    to="/"
+                    className="md:hidden text-xl font-bold no-underline inline pl-4"
+                >
+                    {siteTitle}
+                </Link>{' '}
             </div>
         </header>
     );
