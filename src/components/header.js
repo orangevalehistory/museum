@@ -4,8 +4,8 @@ import { Link } from 'gatsby';
 
 import logo from '../images/ov-history-museum-01.jpg';
 import { Navbar } from './navbar/navbar';
-// import { Donate } from './navbar/donate';
-// import { Social } from './navbar/social';
+import { Donate } from './navbar/donate';
+import { Social } from './navbar/social';
 
 const Header = ({ siteTitle }) => {
     return (
@@ -29,10 +29,10 @@ const Header = ({ siteTitle }) => {
                     <div>
                         <Navbar />
                     </div>
-                    {/* <div className="hidden md:flex justify-center">
+                    <div className="hidden md:flex justify-center">
                         <Social />
                         <Donate />
-                    </div> */}
+                    </div>
                 </div>
 
                 <div className="hidden lg:flex">
@@ -41,9 +41,8 @@ const Header = ({ siteTitle }) => {
 
                 <div className="hidden lg:flex">
                     <div className="hidden md:flex justify-center pb-2">
-                        &nbsp;
-                        {/* <Social />
-                        <Donate /> */}
+                        <Social />
+                        <Donate />
                     </div>
                 </div>
             </div>
