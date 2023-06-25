@@ -14,10 +14,10 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 */
 
 export const Hero = () => {
-    const { placeholderImage } = useStaticQuery(
+    const { heroImage } = useStaticQuery(
         graphql`
             query {
-                placeholderImage: file(
+                heroImage: file(
                     relativePath: { eq: "GRAND_OPENING_ohm.png" }
                 ) {
                     childImageSharp {
@@ -30,7 +30,7 @@ export const Hero = () => {
             }
         `
     );
-    const backgroundImage = getImage(placeholderImage);
+    const backgroundImage = getImage(heroImage);
 
     return (
         <div className="pt-1 bg-white">

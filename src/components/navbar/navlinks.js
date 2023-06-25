@@ -47,8 +47,8 @@ export const NavLinks = (props) => {
                         </Nav.Item>
                     </div>
                 </Nav.Menu> */}
-
-                {/* <Nav.Menu title="About" className="pl-3">
+{/* 
+                <Nav.Menu title="About" className="pl-3">
                     <div
                         className="absolute underline m-2 p-2 text-black bg-white
                     text-xl text-left leading-relaxed z-40 rounded-md"
@@ -65,12 +65,12 @@ export const NavLinks = (props) => {
                     </div>
                 </Nav.Menu> */}
             </Nav>
-            {/* <div className="mx-2 my-3 md:hidden">
+            <div className="mx-2 my-3 md:hidden">
                 <Social />
             </div>
             <div className="mx-2 md:hidden">
                 <Donate />
-            </div> */}
+            </div>
         </div>
     );
 };

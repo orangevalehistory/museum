@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
-import logo from '../images/ov-history-museum-01.jpg';
+import logo from '../images/ovhistory.webp';
 import { Navbar } from './navbar/navbar';
 import { Donate } from './navbar/donate';
 import { Social } from './navbar/social';
