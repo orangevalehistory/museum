@@ -15,9 +15,9 @@ const IndexPage = () => {
                 <SimpleSlider />
                 <div className="block md:flex text-white bg-gray-900 relative justify-center items-center ">
                     <div className="md:w-1/2">
-                        <div style={{ margin: '15% 20% 15% 20%' }}>
+                        <div style={{ margin: '8% 18% 0 18%' }}>
                             <div className="items-center flex">
-                                <h1 className="text-4xl">
+                                <h1 className="text-4xl mt-6">
                                     About the <br />
                                     Orangevale History Museum
                                 </h1>
