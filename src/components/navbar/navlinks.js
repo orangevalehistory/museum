@@ -25,7 +25,7 @@ export const NavLinks = (props) => {
                 </Nav.Item> */}
                 <Nav.Item>
                     <div className="mx-2">
-                        <Link to="/gallery">Gallery</Link>
+                        <Link to="/location">Location</Link>
                     </div>
                 </Nav.Item>
                 {/* <Nav.Item>
