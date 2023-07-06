@@ -14,16 +14,6 @@ const IndexPage = () => {
                 <Hero />
                 <SimpleSlider />
                 <div className="block md:flex text-white bg-gray-900 relative justify-center items-center ">
-                    <div className="md:w-1/2 mt-8 p-4">
-                        <StaticImage
-                            src="../images/GRAND_OPENING_ohm.png"
-                            loading="eager"
-                            quality={95}
-                            formats={['auto', 'webp', 'avif']}
-                            alt=""
-                        />
-                    </div>
-
                     <div className="md:w-1/2">
                         <div style={{ margin: '15% 20% 15% 20%' }}>
                             <div className="items-center flex">
