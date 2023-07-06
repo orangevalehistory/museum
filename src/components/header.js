@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import logo from '../images/ov-history-museum-01sm.jpg';
-import { Navbar } from './navbar/navbar';
 import { Donate } from './navbar/donate';
 import { Social } from './navbar/social';
 
@@ -27,7 +26,7 @@ const Header = ({ siteTitle }) => {
 
                 <div className="lg:hidden w-3/4">
                     <div>
-                        <Navbar />
+                        {/* <Navbar /> */}
                     </div>
                     <div className="hidden md:flex justify-center">
                         <Social />
@@ -36,7 +35,7 @@ const Header = ({ siteTitle }) => {
                 </div>
 
                 <div className="hidden lg:flex">
-                    <Navbar />
+                    {/* <Navbar /> */}
                 </div>
 
                 <div className="hidden lg:flex">

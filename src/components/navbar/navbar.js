@@ -14,12 +14,6 @@ export const Navbar = () => {
                         }
                     />
                 </div>
-                {/* <div className="text-center pb-2 text-sm ml-20">
-                    <div className="">Hours </div>
-                    <div className="">Tues: 10am-2pm </div>
-                    <div className="">Thurs: 4pm-8pm </div>
-                    <div className="">Sat: 10am-4pm</div>
-                </div> */}
             </div>
         </div>
     );

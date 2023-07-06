@@ -18,52 +18,15 @@ export const NavLinks = (props) => {
                         <Link to="/">Home</Link>
                     </div>
                 </Nav.Item>
-                {/* <Nav.Item>
-                    <div className="mx-2">
-                        <Link to="/">Blog</Link>
-                    </div>
-                </Nav.Item> */}
                 <Nav.Item>
                     <div className="mx-2">
-                        <Link to="/location">Location</Link>
+                        <a
+                            href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
+                        >
+                            Location
+                        </a>
                     </div>
                 </Nav.Item>
-                {/* <Nav.Item>
-                    <div className="mx-2">
-                        <Link to="/contact">Contact</Link>
-                    </div>
-                </Nav.Item> */}
-
-                {/* <Nav.Menu title="Resources" className="pl-3">
-                    <div
-                        className="absolute underline m-2 ml-8 p-2 text-black bg-white
-                    text-xl text-left leading-relaxed z-40 rounded-md"
-                    >
-                        <Nav.Item>
-                            <Link to="/events">Events</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Link to="/map">Map</Link>
-                        </Nav.Item>
-                    </div>
-                </Nav.Menu> */}
-{/* 
-                <Nav.Menu title="About" className="pl-3">
-                    <div
-                        className="absolute underline m-2 p-2 text-black bg-white
-                    text-xl text-left leading-relaxed z-40 rounded-md"
-                    >
-                        <Nav.Item>
-                            <Link to="/about">About Us</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Link to="/partners">Partners</Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Link to="/executive-board">Leadership</Link>
-                        </Nav.Item>                        
-                    </div>
-                </Nav.Menu> */}
             </Nav>
             <div className="mx-2 my-3 md:hidden">
                 <Social />
