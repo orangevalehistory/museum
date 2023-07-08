@@ -16,10 +16,10 @@ const hours = () => {
 const location = () => {
     return (
         <React.Fragment>
-            <div className="md:hidden text-center">Location </div>
+            <div className="lg:hidden text-center">Location </div>
             <div className="">6920 Hazel Ave</div>
             <div className="">Orangevale, CA</div>
-            <div className="text-xs md:text-2xl underline mt-1 text-center">map</div>
+            <div className="text-xs lg:text-2xl underline mt-1 text-center">map</div>
         </React.Fragment>
     );
 };
@@ -46,9 +46,8 @@ export const Hero = () => {
     return (
         <div className="block">
             <hr className="border-1" />
-            <div className="md:hidden flex justify-around bg-gray-900 text-white text-center">
+            <div className="xl:hidden flex justify-around bg-gray-900 text-white text-center">
                 <div className="py-4">{hours()}</div>
-
                 <a
                     href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
                     className="py-4"
@@ -61,11 +60,11 @@ export const Hero = () => {
                     className="bg-gray-900 text-white"
                     style={{ display: 'flex', alignItems: 'center' }}
                 >
-                    <div className="hidden md:flex justify-center items-center flex-1 text-3xl">
+                    <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
                         <div>{hours()}</div>
                     </div>
-                    <GatsbyImage image={backgroundImage} alt="grand opening" />
-                    <div className="hidden md:flex justify-center items-center flex-1 text-3xl">
+                    <GatsbyImage className='xl:w-1/2'  image={backgroundImage} alt="grand opening" />
+                    <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
                         <div>{location()}</div>
                     </div>
                 </div>
@@ -74,20 +73,3 @@ export const Hero = () => {
     );
 };
 
-/*
-            <div className="pt-1 bg-white">
-                <div className="xl:py-2 w-full flex justify-around align-middle bg-gray-900"
-                style={{justifyContent: 'center'}}>
-                    <div className="py-4 text-white">{hours()}</div>                    
-                    <GatsbyImage image={backgroundImage} alt="grand opening" />
-
-                    # center the text vertically using flexbox
-                                        <a
-                    href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
-                    className="py-4 text-white align-middle"
-                >
-                    {location()}
-                </a>
-                </div>
-            </div>
-*/
