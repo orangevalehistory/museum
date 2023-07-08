@@ -19,7 +19,9 @@ const location = () => {
             <div className="lg:hidden text-center">Location </div>
             <div className="">6920 Hazel Ave</div>
             <div className="">Orangevale, CA</div>
-            <div className="text-xs lg:text-2xl underline mt-1 text-center">map</div>
+            <div className="text-xs lg:text-2xl underline mt-1 text-center">
+                map
+            </div>
         </React.Fragment>
     );
 };
@@ -63,13 +65,21 @@ export const Hero = () => {
                     <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
                         <div>{hours()}</div>
                     </div>
-                    <GatsbyImage className='xl:w-1/2'  image={backgroundImage} alt="grand opening" />
+                    <GatsbyImage
+                        className="xl:w-1/2"
+                        image={backgroundImage}
+                        alt="grand opening"
+                    />
                     <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
-                        <div>{location()}</div>
+                        <a
+                            href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
+                            className=""
+                        >
+                            {location()}
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
-
