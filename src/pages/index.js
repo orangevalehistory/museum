@@ -24,11 +24,14 @@ const IndexPage = () => {
                             </div>
 
                             <p className="text-left text-lg font-bold py-8 px-2">
-                                We are a group of community volunteers who
-                                desire to document and preserve Orangevale's
-                                stories. We meet monthly and hope to continue to
-                                capture the people and history that make our
-                                community unique.
+                                The new Orangevale History Museum fulfills part
+                                of the purpose of the Orangevale History Project
+                                (OHP) which is to preserve, chronicle and
+                                promote the history of Orangevale, California,
+                                and educate the community thereof. Thanks to the
+                                Orangevale Recreation & Park District, OHP can
+                                now house and share the unique history of this
+                                community.
                             </p>
                         </div>
                     </div>
