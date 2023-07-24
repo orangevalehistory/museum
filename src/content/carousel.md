@@ -16,7 +16,7 @@ images:
                 },
                 {
                     image: '../images/carousel/Kids_Zone.png',
-                    alt: 'Museum Kid's Zone',
+                    alt: 'Museum Kids Zone',
                     link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
