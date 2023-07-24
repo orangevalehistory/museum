@@ -15,9 +15,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/GRAND OPENING ohm.png',
-                    alt: 'Grand Opening Announcement',
-                    link: 'https://www.orangevalehistory.org/events/'
+                    image: '../images/carousel/Kids_Zone.png',
+                    alt: 'Museum Kid's Zone',
+                    link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
                     image: '../images/carousel/Main_Meeting_Web_Tile.png',
