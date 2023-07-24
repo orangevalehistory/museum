@@ -9,6 +9,7 @@ const hours = () => {
             <div className="">Tues: 10am-2pm </div>
             <div className="">Thurs: 4pm-8pm </div>
             <div className="">Sat: 10am-4pm</div>
+            <div className="">FREE ADMISSION</div>
         </React.Fragment>
     );
 };
