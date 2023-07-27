@@ -20,11 +20,7 @@ export const NavLinks = (props) => {
                 </Nav.Item>
                 <Nav.Item>
                     <div className="mx-2">
-                        <a
-                            href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
-                        >
-                            Location
-                        </a>
+                        <Link to="/sponsors">Sponsors</Link>
                     </div>
                 </Nav.Item>
             </Nav>
