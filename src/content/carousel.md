@@ -20,9 +20,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
-                    image: '../images/carousel/Main_Meeting_Web_Tile.png',
-                    alt: 'Regular meeting at the Chamber',
-                    link: 'https://www.orangevalehistory.org/events/'
+                    image: '../images/carousel/Legacy_wall_tile.png',
+                    alt: 'Legacy Wall Opportunity',
+                    link: 'https://orangevalehistorymuseum.org/static/legacy_wall_form.pdf'
                 },
                 {
                     image: '../images/carousel/Mobile_History_Encounter_Tile.png',
