@@ -20,9 +20,12 @@ const location = () => {
             <div className="lg:hidden text-center">Location </div>
             <div className="">6920 Hazel Ave</div>
             <div className="">Orangevale, CA</div>
-            <div className="text-xs lg:text-2xl underline mt-1 text-center">
+            <div className="text-base xl:text-xl lg:mt-3 underline text-center">
                 map
             </div>
+            <div className="text-xl xl:text-2xl lg:mt-3 text-center">
+                (916) 800-4711
+            </div>            
         </React.Fragment>
     );
 };
