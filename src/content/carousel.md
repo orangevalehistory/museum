@@ -22,7 +22,7 @@ images:
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
                     alt: 'Legacy Wall Opportunity',
-                    link: 'https://www.orangevalehistorymuseum.org'
+                    link: '/legacy_wall_form.pdf'
                 },
                 {
                     image: '../images/carousel/Mobile_History_Encounter_Tile.png',
