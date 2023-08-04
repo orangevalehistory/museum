@@ -32,7 +32,7 @@ export const Hero = () => {
         graphql`
             query {
                 heroImage: file(
-                    relativePath: { eq: "MuseumFrontCropped.jpg" }
+                    relativePath: { eq: "Museum_Frnt_Sign.jpg" }
                 ) {
                     childImageSharp {
                         gatsbyImageData(
