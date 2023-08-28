@@ -7,8 +7,8 @@ const hours = () => {
         <React.Fragment>
             <div className="">Hours </div>
             <div className="">Tues: 10am-2pm </div>
-            <div className="">Thurs: 4pm-8pm </div>
-            <div className="">Sat: 10am-4pm</div>
+            <div className="">Thurs: 1pm-5pm </div>
+            <div className="">Sat: 11am-3pm</div>
             <div className="">FREE ADMISSION</div>
         </React.Fragment>
     );
