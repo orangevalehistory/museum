@@ -5,9 +5,9 @@ images:
         gallery:
             [
                 {
-                    image: '../images/carousel/Fashion_World_Facebook_Cover.png',
+                    image: '../images/carousel/Santa_Museum.png',
                     alt: 'The museum building fundraiser',
-                    link: 'https://gofund.me/a613f234'
+                    link: 'https://www.orangevalehistory.org/events/'
                 },
                 {
                     image: '../images/carousel/Gift_Shop_Tile.png',
