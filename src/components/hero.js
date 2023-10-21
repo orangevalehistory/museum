@@ -52,12 +52,13 @@ export const Hero = () => {
     return (
         <div className="block">
             <hr className="border-1" />
-            <div className="xl:hidden flex justify-around bg-gray-900 text-white text-center">
-                <div className="md:py-4">{hours()}</div>
-                <a
-                    href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
-                    className="md:py-4"
-                >
+            <div
+                id="mobile"
+                className="bg-gray-900 text-white text-center lg:hidden p-4 md:text-lg"
+            >
+                <div className="pb-4">{hours()}</div>
+                <hr className="pt-4" />
+                <a href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1">
                     {location()}
                 </a>
             </div>
@@ -66,15 +67,15 @@ export const Hero = () => {
                     className="bg-gray-900 text-white"
                     style={{ display: 'flex', alignItems: 'center' }}
                 >
-                    <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
+                    <div className="hidden lg:flex justify-center items-center flex-1 lg:text-lg xl:text-3xl">
                         <div>{hours()}</div>
                     </div>
                     <GatsbyImage
-                        className="xl:w-1/2"
+                        className="lg:w-1/2"
                         image={backgroundImage}
                         alt="grand opening"
                     />
-                    <div className="hidden xl:flex justify-center items-center flex-1 text-3xl">
+                    <div className="hidden lg:flex justify-center items-center flex-1 lg:text-lg xl:text-3xl">
                         <a
                             href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
                             className=""
