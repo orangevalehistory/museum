@@ -53,10 +53,10 @@ export const Hero = () => {
         <div className="block">
             <hr className="border-1" />
             <div className="xl:hidden flex justify-around bg-gray-900 text-white text-center">
-                <div className="py-4">{hours()}</div>
+                <div className="md:py-4">{hours()}</div>
                 <a
                     href="https://www.google.com/search?q=6920+Hazel+Ave.+Orangevale%2C+CA&oq=6920+Hazel+Ave.+Orangevale%2C+CA&aqs=chrome..69i57.14216j0j7&sourceid=chrome&ie=UTF-8#ip=1"
-                    className="py-4"
+                    className="md:py-4"
                 >
                     {location()}
                 </a>
