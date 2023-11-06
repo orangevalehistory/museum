@@ -6,9 +6,9 @@ const hours = () => {
     return (
         <React.Fragment>
             <div className="">Hours </div>
-            <div className="">Tues: 10am-2pm </div>
+            <div className="">Tues: NOW CLOSED </div>
             <div className="">Thurs: 1pm-5pm </div>
-            <div className="">Sat: 11am-3pm</div>
+            <div className="">Sat: noon-4pm</div>
             <div className="">FREE ADMISSION</div>
         </React.Fragment>
     );
