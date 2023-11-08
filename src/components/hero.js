@@ -5,8 +5,8 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 const hours = () => {
     return (
         <React.Fragment>
-            <div className="">Hours </div>
-            <div className="">Tues: NOW CLOSED </div>
+            <div className="">Winter Hours </div>
+            <div className="">Tues: now closed </div>
             <div className="">Thurs: 1pm-5pm </div>
             <div className="">Sat: noon-4pm</div>
             <div className="">FREE ADMISSION</div>
