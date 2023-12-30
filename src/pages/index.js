@@ -10,10 +10,10 @@ const IndexPage = () => {
         <Layout>
             <Seo title="Home" />
             <div id="home-page">
-                <div className="text-xl text-center bg-orange-500">
-                    Change to Winter Hours - Effective the week of November 6th
-                    we will be open two days a week, Thursday, 1pm - 5pm and
-                    Saturday, 12 pm - 4pm.
+                {/* <div className="text-xl text-center bg-orange-500"> */}
+                <div className="text-xl text-center text-red-500">
+                    New hours comming! - Effective the week of January 16th
+                    we will be open three days a week, Tuesday, Thursday, and Saturday, 12pm - 4pm.
                 </div>
                 <Hero />
                 <SimpleSlider />
