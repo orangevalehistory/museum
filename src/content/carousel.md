@@ -5,11 +5,6 @@ images:
         gallery:
             [
                 {
-                    image: '../images/carousel/Santa_Museum.png',
-                    alt: 'The museum building fundraiser',
-                    link: 'https://www.orangevalehistory.org/events/'
-                },
-                {
                     image: '../images/carousel/Gift_Shop_Tile.png',
                     alt: 'Purchase great products in the gift shop',
                     link: 'https://www.orangevalehistorymuseum.org/'
