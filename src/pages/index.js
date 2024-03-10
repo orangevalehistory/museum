@@ -11,10 +11,10 @@ const IndexPage = () => {
             <Seo title="Home" />
             <div id="home-page">
                 {/* <div className="text-xl text-center bg-orange-500"> */}
-                <div className="text-xl text-center text-red-500">
+                {/* <div className="text-xl text-center text-red-500">
                     New hours! - Effective the week of January 16th
                     we will be open three days a week, Tuesday, Thursday, and Saturday, 12pm - 4pm.
-                </div>
+                </div> */}
                 <Hero />
                 <SimpleSlider />
                 <div className="block md:flex text-white bg-gray-900 relative justify-center items-center ">
