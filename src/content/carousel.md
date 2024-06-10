@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Kids_Zone.png',
-                    alt: 'Museum Kids Zone',
+                    image: '../images/carousel/IceCreamSocialwebsite.png',
+                    alt: 'Museum Ice Cream Social',
                     link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
