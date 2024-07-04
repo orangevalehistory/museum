@@ -12,8 +12,8 @@ const IndexPage = () => {
             <div id="home-page">
                 {/* <div className="text-xl text-center bg-orange-500"> */}
                 {/* <div className="text-xl text-center text-red-500">
-                    New hours! - Effective the week of January 16th
-                    we will be open three days a week, Tuesday, Thursday, and Saturday, 12pm - 4pm.
+                    CLOSED JULY 4th and 11th
+                    open three days a week, Tuesday, Thursday, and Saturday, 12pm - 4pm.
                 </div> */}
                 <Hero />
                 <SimpleSlider />
