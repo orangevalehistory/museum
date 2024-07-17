@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/IceCreamSocialwebsite.png',
-                    alt: 'Museum Ice Cream Social 2024',
+                    image: '../images/carousel/Mobile_History_Encounter_Tile.png',
+                    alt: 'Interactive Touchscreen',
                     link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
