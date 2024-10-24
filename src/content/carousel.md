@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Mobile_History_Encounter_Tile.png',
-                    alt: 'Interactive Touchscreen',
-                    link: 'https://www.orangevalehistorymuseum.org'
+                    image: '../images/carousel/Mode_Fundraiser.png',
+                    alt: 'Eat, drink and support!',
+                    link: 'https://www.modebrewing.com/food'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
