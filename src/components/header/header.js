@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import { Navbar } from './navbar/navbar';
-import logo from '../images/ov-history-museum-01sm.jpg';
-import { Donate } from './navbar/donate';
-import { Social } from './navbar/social';
+import logo from '../../images/ov-history-museum-01sm.jpg';
+import { Donate } from './donate';
+import { Social } from './social';
+import { NavLinks } from './navlinks';
+import { MobileNavigation } from './mobile-navigation';
 
 const Header = ({ siteTitle }) => {
     return (
@@ -24,18 +25,19 @@ const Header = ({ siteTitle }) => {
                     </Link>
                 </div>
 
+                {/* reminder This is hidden for large  */}
                 <div className="lg:hidden w-3/4">
-                    <div>
-                        <Navbar />
-                    </div>
-                    <div className="hidden md:flex justify-center">
-                        <Social />
-                        <Donate />
-                    </div>
+                    <MobileNavigation />
                 </div>
 
+
+                {/* reminder This is hidden for mobile  */}
                 <div className="hidden lg:flex">
-                    <Navbar />
+                    <NavLinks
+                        styles={
+                            'hidden md:flex flex-row font-sans font-light justify-center space-between px-3 pb-2 text-white text-2xl'
+                        }
+                    />
                 </div>
 
                 <div className="hidden lg:flex">
