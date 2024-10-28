@@ -20,7 +20,8 @@ const Layout = ({ children }) => {
                 style={{
                     margin: `0 auto`,
                     maxWidth: `var(--size-content)`,
-                    padding: `var(--size-gutter)`
+                    padding: `var(--size-gutter)`,
+                    minWidth: `358px`
                 }}
             >
                 <main>{children}</main>
@@ -31,16 +32,17 @@ const Layout = ({ children }) => {
                     }}
                 >
                     {/* copyright */}
-          <h3 className="flex flex-col mx-auto md:flex-row justify-center ">
-            <div inline-block>&copy; 2022 - {new Date().getFullYear()}</div>
-            <div className="hidden md:inline">&nbsp;|&nbsp;</div>
-            <div className="inline tracking-wider">{title}</div>
-            <div className="hidden md:inline">&nbsp;|&nbsp;</div> All Rights Reserved
-          </h3>
+                    <h3 className="flex flex-col mx-auto md:flex-row justify-center ml-4">
+                        <div inline-block>&copy; 2022 - {new Date().getFullYear()}</div>
+                        <div className="hidden md:inline">&nbsp;|&nbsp;</div>
+                        <div className="inline tracking-wider">{title}</div>
+                        <div className="hidden md:inline">&nbsp;|&nbsp;</div> All Rights Reserved
+                    </h3>
                 </footer>
             </div>
         </React.Fragment>
     );
+
 };
 
 Layout.propTypes = {
