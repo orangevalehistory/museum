@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => {
 
 
                 {/* reminder This is hidden for mobile  */}
-                <div className="hidden lg:flex">
+                <div className="hidden md:flex">
                     <NavLinks
                         styles={
                             'hidden md:flex flex-row font-sans font-light justify-center space-between px-3 pb-2 text-white text-2xl'
@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => {
                     />
                 </div>
 
-                <div className="hidden lg:flex">
+                <div className="hidden md:flex">
                     <div className="hidden md:flex justify-center pb-2">
                         <Social />
                         <Donate />
