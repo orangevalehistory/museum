@@ -10,51 +10,46 @@ import { MobileNavigation } from './mobile-navigation';
 const Header = ({ siteTitle }) => {
     return (
         <header className="bg-gray-900 text-white">
-            <div className="flex px-5 py-4 items-center justify-between bg-gray-900 text-white">
-                <div id="left" className="px-0 w-1/4">
+            <div className="grid grid-cols-1 md:grid-cols-3 items-center px-5 bg-gray-900 text-white">
+                <div id="left" className="flex items-center justify-start md:justify-start w-full md:w-auto">
                     <img
                         alt="Orangevale History Project Museum logo"
-                        className="inline-block pl-4 max-h-32"
+                        className="inline-block my-4 max-h-32"
                         src={logo}
                     />
                     <Link
                         to="/"
-                        className="hidden text-xl font-bold no-underline md:inline-block pl-4"
+                        className="hidden text-xl font-bold no-underline lg:inline-block pl-4"
                     >
                         {siteTitle}
                     </Link>
                 </div>
 
-                {/* reminder This is hidden for large  */}
-                <div className="lg:hidden w-3/4">
-                    <MobileNavigation />
-                </div>
-
-
-                {/* reminder This is hidden for mobile  */}
-                <div className="hidden md:flex">
+                <div id="middle" className="hidden md:flex justify-center">
                     <NavLinks
                         styles={
-                            'hidden md:flex flex-row font-sans font-light justify-center space-between px-3 pb-2 text-white text-2xl'
+                            'flex flex-row font-sans font-light justify-center space-between px-3 pb-2 text-white text-2xl'
                         }
                     />
                 </div>
 
-                <div className="hidden md:flex">
-                    <div className="hidden md:flex justify-center pb-2">
+                <div id="right" className="hidden lg:flex justify-end w-full md:w-auto">
+                    <div className="flex md:justify-center pb-2">
                         <Social />
                         <Donate />
                     </div>
                 </div>
+
+                <div className="lg:hidden w-full">
+                    <MobileNavigation />
+                </div>
             </div>
-            <div className="text-center">
-                <Link
-                    to="/"
-                    className="md:hidden text-xl font-bold no-underline inline pl-4"
-                >
-                    {siteTitle}
-                </Link>{' '}
-            </div>
+            <Link
+                to="/"
+                className="inline-block w-full text-center lg:hidden text-xl font-bold no-underline mb-2"
+            >
+                {siteTitle}
+            </Link>
         </header>
     );
 };

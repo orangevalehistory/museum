@@ -3,7 +3,7 @@ import { NavLinks } from "./navlinks"
 import { CgMenu } from "react-icons/cg"
 import { CgClose } from "react-icons/cg"
 
-const styles = "md:hidden font-sans font-light"
+const styles = "lg:hidden font-sans font-light"
 
 export const MobileNavigation = () => {
   const [open, setOpen] = useState(false)
@@ -15,7 +15,7 @@ export const MobileNavigation = () => {
       className="absolute right-3 top-3 cursor-pointer"
     />
   )
-  
+
   const closeIcon = (
     <CgClose
       onClick={() => setOpen(!open)}
@@ -26,9 +26,9 @@ export const MobileNavigation = () => {
   return (
     <nav className={styles} >
       {open ? closeIcon : hamburgerIcon}
-      {open && 
-            <NavLinks mobile styles="block absolute right-5 bg-gray-900 border-2 border-orange-500 p-2 leading-8 z-50 text-xl" />
-        }
+      {open &&
+        <NavLinks mobile styles="block absolute right-5 bg-gray-900 border-2 border-orange-500 p-2 leading-8 z-50 text-xl" />
+      }
     </nav>
   )
 }
