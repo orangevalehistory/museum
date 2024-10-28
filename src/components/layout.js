@@ -15,7 +15,6 @@ const Layout = ({ children }) => {
 
     return (
         <React.Fragment>
-            <Header siteTitle={title} />
             <div
                 style={{
                     margin: `0 auto`,
@@ -24,6 +23,7 @@ const Layout = ({ children }) => {
                     minWidth: `358px`
                 }}
             >
+                <Header siteTitle={title} />
                 <main>{children}</main>
                 <footer
                     style={{
