@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => {
                     </Link>
                 </div>
 
-                <div id="middle" className="hidden md:flex justify-center">
+                <div id="middle" className="hidden lg:flex justify-center">
                     <NavLinks
                         styles={
                             'flex flex-row font-sans font-light justify-center space-between px-3 pb-2 text-white text-2xl'
@@ -33,20 +33,20 @@ const Header = ({ siteTitle }) => {
                     />
                 </div>
 
-                <div id="right" className="hidden lg:flex justify-end w-full md:w-auto">
-                    <div className="flex md:justify-center pb-2">
+                <div id="right" className="w-full mx-auto">
+                    <div className="hidden lg:flex justify-end pb-2">
                         <Social />
                         <Donate />
                     </div>
-                </div>
 
-                <div className="lg:hidden w-full">
-                    <MobileNavigation />
+                    <div className="lg:hidden flex justify-end pb-2">
+                        <MobileNavigation />
+                    </div>
                 </div>
             </div>
             <Link
                 to="/"
-                className="inline-block w-full text-center lg:hidden text-xl font-bold no-underline mb-2"
+                className="inline-block w-full text-center lg:hidden text-xl md:text-2xl font-bold no-underline mb-2"
             >
                 {siteTitle}
             </Link>
