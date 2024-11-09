@@ -23,6 +23,11 @@ export const NavLinks = (props) => {
                         <Link to="/sponsors">Sponsors</Link>
                     </div>
                 </Nav.Item>
+                <Nav.Item>
+                    <div className="mx-2">
+                        <Link to="/events">Events</Link>
+                    </div>
+                </Nav.Item>
             </Nav>
             <div className="mx-2 my-3 md:hidden">
                 <Social />
