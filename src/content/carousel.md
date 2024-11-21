@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Mode_Fundraiser.png',
-                    alt: 'Eat, drink and support!',
-                    link: 'https://www.modebrewing.com/food'
+                    image: '../images/carousel/Santa_Museum.png',
+                    alt: 'Photos with Santa and new exhibits!',
+                    link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
