@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Santa_Museum.jpg',
-                    alt: 'Photos with Santa and new exhibits!',
+                    image: '../images/carousel/2025meet.jpg',
+                    alt: 'Join us in the New Year!',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
