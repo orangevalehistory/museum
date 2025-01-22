@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/2025meet.jpg',
-                    alt: 'Join us in the New Year!',
+                    image: '../images/carousel/DedicationCeremony.png',
+                    alt: 'Dedicating an historic home plaque',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
