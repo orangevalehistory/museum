@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/DedicationCeremony.png',
-                    alt: 'Dedicating an historic home plaque',
+                    image: '../images/carousel/LincolnHighwayFBcover.png',
+                    alt: 'Lincoln Highway Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
