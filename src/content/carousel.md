@@ -20,9 +20,9 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/Dress_Bessie.png',
-                    alt: 'Mural fundraising campaign',
-                    link: 'https://www.paypal.com/donate?campaign_id=X3MDFKUVAE7FJ'
+                    image: '../images/carousel/OnTheTrail.png',
+                    alt: 'Subscribe to our YouTube channel',
+                    link: 'https://www.youtube.com/@orangevalehistoryproject255?sub_confirmation=1'
                 }
             ]
     }
