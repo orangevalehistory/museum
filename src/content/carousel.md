@@ -10,7 +10,7 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/OliveOilFB.jpb',
+                    image: '../images/carousel/OliveOilFB.jpg',
                     alt: 'Olive Oil Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
