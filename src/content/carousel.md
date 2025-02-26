@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/LincolnHighwayFBcover.png',
-                    alt: 'Lincoln Highway Presentation',
+                    image: '../images/carousel/OliveOilFB.jpb',
+                    alt: 'Olive Oil Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
