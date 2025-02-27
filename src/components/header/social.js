@@ -22,7 +22,7 @@ export const Social = () => {
       <div className="inline md:block">
         <a
           className="md:my-3 mx-3 inline-block"
-          href="https://www.facebook.com/groups/1642932559251529"
+          href="https://www.facebook.com/profile.php?id=61573316514318"
           target="_blank"
           rel="noreferrer"
         >
