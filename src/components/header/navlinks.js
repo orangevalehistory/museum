@@ -19,6 +19,11 @@ export const NavLinks = (props) => {
                     </div>
                 </Nav.Item>
                 <Nav.Item>
+                    <div className="mx-2 text-white">
+                        <a href="https://orangevalehistory.org">Org</a>
+                    </div>
+                </Nav.Item>
+                <Nav.Item>
                     <div className="mx-2">
                         <Link to="/sponsors">Sponsors</Link>
                     </div>
