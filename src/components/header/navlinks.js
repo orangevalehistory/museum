@@ -13,24 +13,22 @@ export const NavLinks = (props) => {
     return (
         <div className={props.styles}>
             <Nav className={navclasses}>
-                <Nav.Item>
+                <Nav.Item as={Link} to="/">
                     <div className="mx-2 text-white">
-                        <Link to="/">Home</Link>
+                        Home
                     </div>
                 </Nav.Item>
-                {/* <Nav.Item> Reminder: this swallows <a> events */}
                 <div className="mx-2 text-white">
                     <a href="https://www.orangevalehistory.org/" target="_blank" rel="noopener noreferrer">Org</a>
                 </div>
-                {/* </Nav.Item> */}
-                <Nav.Item>
+                <Nav.Item as={Link} to="/sponsors">
                     <div className="mx-2">
-                        <Link to="/sponsors">Sponsors</Link>
+                        Sponsors
                     </div>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item as={Link} to="/events">
                     <div className="mx-2">
-                        <Link to="/events">Events</Link>
+                        Events
                     </div>
                 </Nav.Item>
             </Nav>

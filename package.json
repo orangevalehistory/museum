@@ -28,7 +28,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
     "react-slick": "^0.29.0",
-    "rsuite": "^5.23.3",
+    "rsuite": "^5.78.0",
     "slick-carousel": "^1.8.1",
     "type-fest": "^3.5.0"
   },
