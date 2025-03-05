@@ -18,11 +18,11 @@ export const NavLinks = (props) => {
                         <Link to="/">Home</Link>
                     </div>
                 </Nav.Item>
-                <Nav.Item>
-                    <div className="mx-2 text-white">
-                        <a href="https://orangevalehistory.org">Org</a>
-                    </div>
-                </Nav.Item>
+                {/* <Nav.Item> Reminder: this swallows <a> events */}
+                <div className="mx-2 text-white">
+                    <a href="https://www.orangevalehistory.org/" target="_blank" rel="noopener noreferrer">Org</a>
+                </div>
+                {/* </Nav.Item> */}
                 <Nav.Item>
                     <div className="mx-2">
                         <Link to="/sponsors">Sponsors</Link>
