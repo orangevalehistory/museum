@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/OliveOilFB.jpg',
-                    alt: 'Olive Oil Presentation',
+                    image: '../images/carousel/Aprilmeet.png',
+                    alt: 'Roseville Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
