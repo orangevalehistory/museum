@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Aprilmeet.png',
-                    alt: 'Roseville Presentation',
+                    image: '../images/carousel/BeachfrontProperty.png',
+                    alt: 'Beachfront Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
