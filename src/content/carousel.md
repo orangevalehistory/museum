@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/BeachfrontProperty.png',
-                    alt: 'Beachfront Presentation',
+                    image: '../images/carousel/StoneCorral.png',
+                    alt: 'Stone Corral Presentation',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
