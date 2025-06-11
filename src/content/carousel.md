@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/StoneCorral.png',
-                    alt: 'Stone Corral Presentation',
+                    image: '../images/carousel/MuzeAnniv.png',
+                    alt: 'Museum Anniversary Celebration',
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
