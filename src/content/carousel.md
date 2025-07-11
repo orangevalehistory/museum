@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/MuzeAnniv.png',
-                    alt: 'Museum Anniversary Celebration',
-                    link: 'https://www.orangevalehistorymuseum.org/'
+                    image: '../images/carousel/Nightat.jpg',
+                    alt: 'Night at the Museum Charity Event',
+                    link: 'https://allevents.ticketspice.com/ov-museum-blackandwhite'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
