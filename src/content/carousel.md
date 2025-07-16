@@ -10,7 +10,7 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Nightat.jpg',
+                    image: '../images/carousel/Natm_event.png',
                     alt: 'Night at the Museum Charity Event',
                     link: 'https://allevents.ticketspice.com/ov-museum-blackandwhite'
                 },
