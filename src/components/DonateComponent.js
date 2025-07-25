@@ -1,28 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import campers from '../images/Tour_Campers_2.jpg';
 
 export const DonateComponent = () => {
-	const [isLoading, setIsLoading] = useState(true);
-
-	const handleIframeLoad = () => {
-		setIsLoading(false);
-	};
 
 	return (
 		<div className="bg-gray-900 text-white pt-10 pb-40 mt-1 xl:h-screen relative">
-			{isLoading && (
-				<div className="flex justify-center items-center h-screen text-white absolute inset-0 bg-gray-900 bg-opacity-75 z-10">
-					Loading...
-				</div>
-			)}
-			<div className={`flex flex-col xl:w-1/2 xl:mx-auto xl:flex-row justify-between gap-4 xl:gap-8 ${isLoading ? 'invisible' : 'visible'}`}>
-				<div id="bessie" className='bg-white text-black rounded-lg w-[358px] h-[420px] mx-auto'>
-					<iframe
-						onLoad={handleIframeLoad}
-						src="https://www.paypal.com/giving/campaigns?campaign_id=X3MDFKUVAE7FJ"
-						title="PayPal donate campaign card"
-						className="h-full w-full rounded-none xl:rounded-lg border-none"
-					/>
+			<div className={`flex flex-col xl:w-1/2 xl:mx-auto xl:flex-row justify-between gap-4 xl:gap-8`}>
+				<div>
+					<givebutter-widget id="g85DGp"></givebutter-widget>
 				</div>
 				<div id="donation" className='bg-white text-black rounded-lg p-5 h-[420px] w-[358px] mx-auto'>
 					<img src={campers} alt="Docent with campers at the museum"
