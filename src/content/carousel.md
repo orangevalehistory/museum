@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Natm_event.png',
-                    alt: 'Night at the Museum Charity Event',
-                    link: 'https://allevents.ticketspice.com/ov-museum-blackandwhite'
+                    image: '../images/carousel/Monica_model.png',
+                    alt: 'The Monica Model',
+                    link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
