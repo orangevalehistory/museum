@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Monica_model.png',
-                    alt: 'The Monica Model',
-                    link: 'https://www.orangevalehistorymuseum.org/'
+                    image: '../images/carousel/Santa2025.jpg',
+                    alt: 'Santa at the Museum',
+                    link: 'https://www.facebook.com/events/2342426530473690/'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
