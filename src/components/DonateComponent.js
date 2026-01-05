@@ -6,7 +6,7 @@ export const DonateComponent = () => {
 			<div className={`grid grid-cols-1 md:grid-cols-2 lg:flex gap-8 justify-items-center lg:justify-center`}>
 				<div>
 					<h1 className="xl:text-3xl m-auto my-4 lg:mt-12 text-center">
-						NIGHT AT THE MUSEUM
+						SUPPORT YOUR MUSEUM
 					</h1>
 					<givebutter-widget id="g85DGp" />
 				</div>
