@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/CitrusHeights.png',
-                    alt: 'Jan Meeting',
-                    link: 'https://www.facebook.com/events/2309668406149078/'
+                    image: '../images/carousel/TribalVoices.png',
+                    alt: 'Feb Meeting',
+                    link: 'https://www.orangevalehistory.org'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
