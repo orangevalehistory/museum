@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/TribalVoices.png',
-                    alt: 'Feb Meeting',
+                    image: '../images/carousel/RestoreCapitol.png',
+                    alt: 'March Meeting',
                     link: 'https://www.orangevalehistory.org'
                 },
                 {
