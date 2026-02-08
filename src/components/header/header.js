@@ -6,6 +6,7 @@ import { Donate } from './donate';
 import { Social } from './social';
 import { NavLinks } from './navlinks';
 import { MobileNavigation } from './mobile-navigation';
+import { JoinUs } from './join-us';
 
 const Header = ({ siteTitle }) => {
     return (
@@ -35,6 +36,7 @@ const Header = ({ siteTitle }) => {
 
                 <div id="right" className="w-full mx-auto">
                     <div className="hidden lg:flex justify-end pb-2">
+                        <JoinUs />
                         <Social />
                         <Donate />
                     </div>
