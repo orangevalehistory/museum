@@ -10,8 +10,8 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/RestoreCapitol.png',
-                    alt: 'March Meeting',
+                    image: '../images/carousel/StoneCorralTour.png',
+                    alt: 'Members Only Stone Corral Tour',
                     link: 'https://www.orangevalehistory.org'
                 },
                 {
