@@ -20,7 +20,7 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/ScenesOV.png',
+                    image: '../images/carousel/ScenesOV.jpg',
                     alt: 'Submit your representation of OV',
                     link: 'https://www.orangevalehistory.org/scenes-contest'
                 }
