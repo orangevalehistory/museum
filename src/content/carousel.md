@@ -20,9 +20,9 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/OnTheTrail.png',
-                    alt: 'Subscribe to our YouTube channel',
-                    link: 'https://www.youtube.com/@orangevalehistoryproject255?sub_confirmation=1'
+                    image: '../images/carousel/ScenesOV.png',
+                    alt: 'Submit your representation of OV',
+                    link: 'https://www.orangevalehistory.org/scenes-contest'
                 }
             ]
     }
