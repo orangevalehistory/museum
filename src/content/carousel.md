@@ -20,9 +20,9 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/ScenesOV.jpg',
-                    alt: 'Submit your representation of OV',
-                    link: 'https://www.orangevalehistory.org/scenes-contest'
+                    image: '../images/carousel/MuzAnniv.png',
+                    alt: '3rd Museum Anniversary Celebration',
+                    link: 'https://orangevalehistorymuseum.org/'
                 }
             ]
     }
