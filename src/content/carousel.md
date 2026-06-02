@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/BDOG2026.png',
-                    alt: 'Big Day of Giving May 7th',
-                    link: 'https://www.bigdayofgiving.org/organization/Orangevale-History-Project'
+                    image: '../images/carousel/Savethedate.png',
+                    alt: 'Night at the Museum save the date',
+                    link: 'https://www.orangevalehistorymuseum.org'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
