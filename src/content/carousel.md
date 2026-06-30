@@ -10,9 +10,9 @@ images:
                     link: 'https://www.orangevalehistorymuseum.org/'
                 },
                 {
-                    image: '../images/carousel/Savethedate.png',
-                    alt: 'Night at the Museum save the date',
-                    link: 'https://www.orangevalehistorymuseum.org'
+                    image: '../images/carousel/NATM2026.jpg',
+                    alt: 'Night at the Museum 2026',
+                    link: 'https://allevents.ticketspice.com/nathm26'
                 },
                 {
                     image: '../images/carousel/Legacy_wall_tile.png',
