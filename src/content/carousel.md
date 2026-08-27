@@ -20,8 +20,8 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/MuzAnniv.png',
-                    alt: '3rd Museum Anniversary Celebration',
+                    image: '../images/carousel/PioneerHer.jpg',
+                    alt: 'Pioneer Heritage talk',
                     link: 'https://orangevalehistorymuseum.org/'
                 }
             ]
