@@ -20,8 +20,8 @@ images:
                     link: '/legacy_wall_form.pdf'
                 },
                 {
-                    image: '../images/carousel/PioneerHer.jpg',
-                    alt: 'Pioneer Heritage talk',
+                    image: '../images/carousel/SJHSHistory.png',
+                    alt: 'San Juan High School History',
                     link: 'https://orangevalehistorymuseum.org/'
                 }
             ]
